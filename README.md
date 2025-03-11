@@ -1,6 +1,6 @@
 # Face-Detection-System
 
-1. Training Phase: train.py 
+# 1. Training Phase: train.py 
 Purpose: Build a dataset and train a facial recognition model.
 
 Steps:
@@ -10,7 +10,7 @@ Steps:
 3) Train the recognition model using these images. The trained model learns unique facial 
    characteristics for each employee, preparing it for detection tasks.
 
-2. Detection Phase: detect.py
+# 2. Detection Phase: detect.py
 Purpose: Perform real-time face detection using the trained dataset.
 
 Steps:
@@ -20,7 +20,7 @@ Steps:
 3) Process video streams or images to detect faces and match them with the trained dataset to 
    identify individuals.
 
-3. Monitoring and Output Phase: monitore.py
+# 3. Monitoring and Output Phase: monitore.py
 Purpose: Provide the final output of the project, including real-time face monitoring and reporting.
 
 Steps:
@@ -29,7 +29,7 @@ Steps:
 3) Match detected faces with the trained dataset to identify employees.
 4) Determine the employees' working status (whether they are active or not).
 
-Generate a detailed report:
+# 4. Generate a detailed report:
 1) List of detected employees.
 2) Their working status (working or not working).
 3) Save the data into an Excel file for documentation and further analysis.
